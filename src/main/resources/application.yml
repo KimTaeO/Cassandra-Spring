@@ -7,3 +7,7 @@ spring:
 
     connection:
       connect-timeout: 10s
+
+    keyspace-name: "Test Cluster"
+    port: 9042
+    contact-points: 127.0.0.1
