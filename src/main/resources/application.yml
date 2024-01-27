@@ -1,0 +1,9 @@
+spring:
+  cassandra:
+    schema-action: create_if_not_exists
+
+    request:
+      timeout: 10s
+
+    connection:
+      connect-timeout: 10s
